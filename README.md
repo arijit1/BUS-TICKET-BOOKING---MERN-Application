@@ -1,11 +1,9 @@
 # BUS-TICKET-BOOKING---MERN-Application
 
-Run these steps before getting started
-Create a folder :
+Your folder structure should look like this :
     My Bus Application
-          ->backend
-              -->api
-          ->mybusapp
+          ->folder "backend"-->inside backend folder "api"
+         Another folder "mybusapp"
   
   To create package.json file
         run inside backend/api folder 
@@ -14,3 +12,5 @@ Create a folder :
    To create react app
        run inside backend/api folder 
             # npx create-react-app mybusapp
+            
+Make sure you have mongodb and node environment in your system.
