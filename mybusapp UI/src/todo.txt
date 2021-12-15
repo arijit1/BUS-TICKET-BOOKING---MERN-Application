@@ -1,0 +1,21 @@
+//project flow
+starting page -> signup/login -> On success -> redirect to '/plantravel' provide details and then
+select bus -> select bus seat -> make payment -> confirmation 
+
+app.js holds <route>
+travelDetail.js has routing navbar
+
+
+//todo
+make admin page,
+validate login data,
+on success full sign up redirect to '/login',
+on success full login redirect to '/planTravel',
+
+
+
+//install (for more check package json dependencies)
+npm install -g create-react-app ,
+npx create-react-app myfirstreact ,
+npm install --save react-router-dom ,
+mpm install axios

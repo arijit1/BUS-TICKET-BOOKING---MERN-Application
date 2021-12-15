@@ -1,0 +1,74 @@
+.start {
+    position: relative;
+    border-radius: 25px;
+    border: 5px solid white;
+    margin-top: 60px;
+    padding-bottom: 570px;
+    background-color: rgba(3, 37, 26, 0.603);
+}
+
+.start-box {
+    position: absolute;
+    margin-top: 50px;
+}
+
+.input-detail {
+    position: absolute;
+    background-image: linear-gradient(rgba(255, 255, 255, 0.356), rgba(255, 255, 255, 0.226));
+    width: 400px;
+    margin-left: 600px;
+    margin-top: 10px;
+}
+
+.input-detail label {
+    margin-top: 5px;
+    color: rgb(245, 240, 240);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-left: 10px;
+}
+
+.form-layout {
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 5px;
+}
+.form-layout {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+}
+.login-form{
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+.input-detail span{
+    margin-left: 10px;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.form-head{
+    background-color: rgb(67, 221, 6);
+}
+.form-head a{
+    color: white;
+    font-weight: bolder;
+}
+@media only screen and (max-width: 1200px) {
+    .start-box {
+        display: none;
+    }
+    .input-detail {
+        width: auto;
+        margin-left: auto;
+        margin-top: auto;
+    }
+    .input-detail label {
+        margin-top: auto;
+        color: rgb(245, 240, 240);
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        margin-left: auto;
+    }
+    .form-layout {
+        margin: auto
+    }
+}

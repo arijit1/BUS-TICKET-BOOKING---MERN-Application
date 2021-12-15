@@ -1,0 +1,15 @@
+.travel-detail-portion-contents  {
+    margin-top: 50px;
+    margin-left: 60px;
+}
+
+.travel-detail-portion-contents hr {
+    border: 2px;
+    border-top: 1px solid white;
+    margin-right: 100px;
+  }
+  .reverseDestination{
+      border: 1px solid black;
+      border-radius: 50%;
+  }
+  

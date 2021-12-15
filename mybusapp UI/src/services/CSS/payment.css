@@ -1,0 +1,80 @@
+.payment {
+    border: 2px solid rgb(2, 4, 19);
+    background-color: rgba(13, 164, 223, 0.007);
+    width: 550px;
+    height: 450px;
+    margin: auto;
+}
+
+.payment:hover {
+    border: 3px double black;
+}
+
+.card-icon {
+    border-bottom:1px solid black;
+    background-color: whitesmoke;
+    text-align: center;
+    margin-bottom: 20px;
+    padding: 1px 0;
+    font-size: 44px;
+}
+
+.payment-details p {
+    margin: 5px;
+    font-weight: 900;
+}
+
+.card-icon .fa {
+    margin: 10px;
+}
+
+.fa-cc-visa {
+    color: blue;
+}
+
+.fa-cc-amex {
+    color: navy;
+}
+
+.fa-cc-mastercard {
+    color: red;
+}
+
+.fa-cc-discover {
+    color: orange;
+}
+
+.payment-details {
+    margin: auto;
+    width: 400px;
+}
+
+.payment-details span {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.payment-details button {
+    margin-left: 80px;
+}
+
+.payment-details .form-control:focus {
+    font-size: larger;
+    font-weight: bold;
+}
+.total_Amount{
+    float: left;
+    font-size: 30px;
+    margin: 10px;
+}
+.amount{
+    margin: 10px;
+    float: right;
+    font-size: 30px;
+    font-weight: bold ;
+    color: #008cff
+}
+.payment-details .carderror{
+    color: red;
+ font-size: small;
+}

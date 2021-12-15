@@ -1,0 +1,45 @@
+.booking-head {
+    margin-left: 10px;
+    color: rgb(10, 212, 43);
+    font-weight: bold;
+}
+
+.booking-details .form-control {
+    width: 100px;
+}
+
+.email-message {
+    margin: 10px;
+    text-decoration: underline;
+}
+
+.reference-head {
+    margin-right: 10px;
+    font-weight: bold;
+}
+
+.reference-id {
+    margin: 1px;
+    font-weight: bolder;
+    color: blue;
+}
+
+.booking-details table td {
+    background-color: rgb(236, 187, 130);
+    font-weight: normal;
+}
+
+.booking-details table th {
+    font-weight: bolder;
+    background-color: yellow;
+}
+.bus-detail-cnf {
+    font-size: medium;
+    font-weight: bold;
+}
+#printPdfStatus{
+    margin-top: 10px;
+    font-size: x-large;
+    font-family: cursive;
+    color: rgb(6, 92, 20);
+}

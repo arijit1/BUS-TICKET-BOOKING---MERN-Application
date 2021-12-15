@@ -1,0 +1,67 @@
+.plan-layout {
+    position: relative;
+    margin-top: 70px;
+    background-image: linear-gradient( rgb(223, 223, 197), rgba(187, 165, 165, 0.466));
+    padding-bottom: 250px;
+}
+
+.plan-layout hr {
+    border: 2px;
+    border-top: 10px double white;
+}
+
+.NavLink {
+    border: 1px solid white;
+    margin-top: -25px;
+    margin-left: 50px;
+    background: rgba(0, 0, 0, 0.651);
+    font-family: 'Times New Roman', Times, serif;
+    padding-bottom: 10px;
+    color: white;
+    width: 200px;
+    text-align: center;
+    font-weight: 1000;
+}
+
+.navbar-header {
+    border: 1px solid wheat;
+}
+
+.plan-layout nav a.active {
+    background: rgba(0, 174, 255, 0.979);
+}
+.plan-layout nav :hover{
+    border: 1px solid black;
+    background-color: white;
+    color: black;
+}
+
+.userName-Welcome {
+    color: rgb(241, 11, 11);
+    margin-right: 30px;
+}
+
+.MyAccount {
+    color: white;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.dropdown-menu {
+    text-align: center;
+}
+@media only screen and (max-width: 1200px) {
+    .NavLink{
+        margin-top: 10px;
+    }
+}
+.errorNoload{
+    
+    padding-left: 150px;
+    padding-right: 150px;
+    border: 2px solid red;
+    border-radius: 10%;
+    color: blue;
+    margin-left: 100px;
+    background-color: whitesmoke;
+}

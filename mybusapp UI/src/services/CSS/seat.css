@@ -1,0 +1,143 @@
+.seat-layout {
+    width: 350px;
+    padding-bottom: 0px;
+    margin-left: 30px;
+}
+
+.seat {
+    border-radius: 10%;
+    border: 1px solid black;
+    margin-left: 30px;
+    height: 690px;
+    background-color: rgba(250, 244, 244, 0.781);
+}
+
+.seat li {
+    border-radius: 100%;
+    padding-bottom: 30px;
+    width: 40px;
+    height: 28px;
+    font-weight: bolder;
+    text-align: center;
+    border: 2px solid rgba(87, 81, 81, 0.856);
+    margin-top: 10px;
+    margin-left: 17px;
+    margin-right: 5px;
+    margin-bottom: 12px;
+    float: left;
+    padding-top: 12px;
+}
+
+.disable {
+    background-color: white;
+}
+
+.seat li:nth-child(even) {
+    margin-right: 40px;
+}
+
+.seat-layout li:hover {
+    background-color: rgba(40, 36, 241, 0.466);
+    cursor: pointer;
+}
+
+#available-Seat {
+    margin-left: 10px;
+    border-radius: 100%;
+    padding-bottom: 10px;
+    margin-right: 10px;
+    width: 20px;
+    border: 2px solid rgba(87, 81, 81, 0.856);
+    float: left;
+    padding-top: 12px;
+    background-color: white;
+}
+
+#Selected-Seat {
+    margin-left: 30px;
+    margin-right: 10px;
+    border-radius: 100%;
+    padding-bottom: 10px;
+    width: 20px;
+    border: 2px solid rgba(87, 81, 81, 0.856);
+    float: left;
+    padding-top: 12px;
+    background-color: rgb(12, 238, 50);
+}
+
+#Booked-Seat {
+    margin-left: 30px;
+    margin-right: 10px;
+    border-radius: 100%;
+    padding-bottom: 10px;
+    width: 20px;
+    border: 2px solid rgba(87, 81, 81, 0.856);
+    float: left;
+    padding-top: 12px;
+    background-color: rgba(87, 81, 81, 0.479);
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 1px;
+}
+
+.grid-item {
+    color: blue;
+    padding: 20px;
+    font-size: 30px;
+    text-align: left;
+}
+
+.selected {
+    background-color: rgb(12, 238, 50);
+}
+
+#AddedSeat {
+    margin-top: 10px;
+    border: 1px solid rgb(8, 88, 236);
+}
+
+.booking-summary {
+    margin-left: 80px;
+}
+
+.From-City {
+    font-size: 25px;
+    margin-left: 10px;
+    margin-right: 50px;
+    color: rgb(11, 72, 185);
+}
+
+.To-City {
+    font-size: 25px;
+    margin-left: 50px;
+    color: rgb(11, 72, 185);
+}
+.column {
+    font-family: cursive;
+    float: left;
+    width: 50%;
+    padding: 20px;
+}
+
+/* .row-row-display-booking-summary:after {
+    display: table;
+    clear: both; 
+} */
+.back-ground{
+    padding-bottom: 500px;
+    background-color: rgba(118, 164, 170, 0.555);
+}
+.details-ForSelected-seats{
+    margin: 3px;
+}
+.Booked{
+    background-color: rgba(87, 81, 81, 0.479);
+}
+#NoPayProceed{
+    margin-left: 10px;
+    font-weight: 800;
+    color: red;
+}
